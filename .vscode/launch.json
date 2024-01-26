@@ -1,5 +1,28 @@
 {
     "configurations": [
+
+
+        {
+            "type": "java",
+            "name": "movie",
+            "request": "launch",
+            "mainClass": "movie",
+            "projectName": "FirstJavaProject_24bed021"
+        },
+        {
+            "type": "java",
+            "name": "judge",
+            "request": "launch",
+            "mainClass": "judge",
+            "projectName": "FirstJavaProject_24bed021"
+        },
+        {
+            "type": "java",
+            "name": "Radomcode",
+            "request": "launch",
+            "mainClass": "Radomcode",
+            "projectName": "FirstJavaProject_24bed021"
+        },
         {
             "type": "java",
             "name": "Ticket",
@@ -27,6 +50,14 @@
             "request": "launch",
             "program": "${file}",
             "justMyCode": true
+        },
+        {
+            "type": "java",
+            "name": "current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "FirstJavaProject_24bed021",
+            "console": "externalTerminal"
         }
     ]
 }
