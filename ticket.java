@@ -6,11 +6,11 @@ public class ticket {
         System.out.println("欢迎使用机票计算器");
         System.out.print("请输入月份：");
         int month = scanner.nextInt();
-        scanner.nextLine(); // 清空缓冲区的换行符
+        scanner.nextLine(); 
 
         System.out.print("请输入机票原价：");
         double price = scanner.nextDouble();
-        scanner.nextLine(); // 清空缓冲区的换行符
+        scanner.nextLine(); 
 
         System.out.print("请输入类型：");
         String type = scanner.nextLine();

@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ticket",
+            "request": "launch",
+            "mainClass": "Ticket",
+            "projectName": "FirstJavaProject_24bed021"
+        },
+        {
+            "type": "java",
+            "name": "ticket",
+            "request": "launch",
+            "mainClass": "ticket",
+            "projectName": "FirstJavaProject_24bed021"
+        },
+        {
+            "type": "java",
             "name": "main",
             "request": "launch",
             "mainClass": "main",
