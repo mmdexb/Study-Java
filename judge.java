@@ -7,7 +7,7 @@ public class judge {
         int n=scanner.nextInt();
         int []score=new int[n];
         score=getscore(n);
-        System.out.printf("最终分数是%f",calscore(score, n));
+        System.out.printf("最终分数是%.2f",calscore(score, n));
 
     }
 
