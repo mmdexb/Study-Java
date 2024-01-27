@@ -143,7 +143,7 @@ class movieopertor{
         }
 
         if(found==0){
-            System.err.printf("没有找到id为%d的电影",id);
+            System.err.printf("没有找到id为%d的电影\n",id);
         }
     }
 
