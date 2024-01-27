@@ -1,3 +1,4 @@
+package judge;
 import java.util.Scanner;
 import java.util.Arrays;
 public class judge {
