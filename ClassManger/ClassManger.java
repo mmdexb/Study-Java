@@ -20,7 +20,7 @@ public class ClassManger {
         students.add(new student("liu","女", 97.1));
 
     }
-
+  
     public void printInfo(int n) {
         if (n==1) {
             op1.printInfo(students);
