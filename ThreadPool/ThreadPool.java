@@ -5,10 +5,12 @@ import java.util.concurrent.*;
 public class ThreadPool {
     @SuppressWarnings("resource")
     public static void main(String[] args) throws InterruptedException, ExecutionException {
-        ExecutorService pool=new ThreadPoolExecutor(3, 5, 8, TimeUnit.SECONDS, 
-            new ArrayBlockingQueue<>(4),Executors.defaultThreadFactory(),new ThreadPoolExecutor.CallerRunsPolicy());
+        
+        // ExecutorService pool=new ThreadPoolExecutor(3, 5, 8, TimeUnit.SECONDS, 
+        //     new ArrayBlockingQueue<>(4),Executors.defaultThreadFactory(),new ThreadPoolExecutor.CallerRunsPolicy());
             
 
+        ExecutorService pool =Executors.newFixedThreadPool(3);
         // Runnable target=new MyRunnable();
         // pool.execute(target);
         // pool.execute(target);
